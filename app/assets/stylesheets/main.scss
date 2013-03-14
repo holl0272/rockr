@@ -1,0 +1,71 @@
+@import url(http://fonts.googleapis.com/css?family=Gochi+Hand);
+@import url(http://fonts.googleapis.com/css?family=Special+Elite);
+@import url(http://fonts.googleapis.com/css?family=Amatic+SC);
+@import url(http://fonts.googleapis.com/css?family=Nosifer);
+@import url(http://fonts.googleapis.com/css?family=Just+Me+Again+Down+Here);
+
+body
+{
+  margin-left: 20px;
+}
+
+#title
+{
+  font-size: 50px;
+  font-weight: bold;
+  font-family: 'Gochi Hand', cursive;
+}
+
+.links
+{
+  margin: 0 0 50px 10px;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: 'Special Elite', cursive;
+}
+
+.links:hover
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+#venues
+{
+  margin-left: 20px;
+  font-size: 40px;
+  font-family: 'Just Me Again Down Here', cursive;
+}
+
+#concerts
+{
+  font-size: 25px;
+  margin-left: 25px;
+  font-family: 'Amatic SC', cursive;
+}
+
+#concerts th
+{
+  text-align: left;
+  text-decoration: underline;
+}
+
+#concerts td
+{
+  padding-left: 10px;
+}
+
+#form
+{
+  margin: 10px;
+  // font-family: 'Happy Monkey', cursive;
+    font-family: 'Special Elite', cursive;
+
+}
+
+#form a.cancel
+{
+  color: red;
+  text-decoration: none;
+  font-family: 'Nosifer', cursive;
+}

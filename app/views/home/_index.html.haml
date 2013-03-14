@@ -1,0 +1,13 @@
+- Venue.order(:name).each do |venue|
+  #venues= venue.name
+  - if venue.concerts.length > 0
+    %table#concerts
+      %tr
+        %th Concert
+        %th Date
+      - venue.concerts.order(:concert_date).each do |concert|
+        %tr
+          %td= concert.name
+          %td= concert.concert_date.strftime('%B %d, %Y')
+
+

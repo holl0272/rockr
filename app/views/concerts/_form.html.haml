@@ -1,0 +1,10 @@
+=form_for @concert, :url => concerts_path, :remote => true do |f|
+  = f.label :name
+  = f.text_field :name, :autofocus => true
+  = f.label :date
+  = f.text_field :concert_date
+  = label_tag "Venue"
+  = select_tag 'venues_select', options_from_collection_for_select(@venues, 'id', 'name')
+  = f.submit "Save"
+  = link_to_function('Cancel', 'cancel_form()', :class => 'cancel')
+
